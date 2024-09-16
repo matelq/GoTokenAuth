@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"strconv"
 	"time"
-
 	jwt "github.com/golang-jwt/jwt/v5"
 	db "github.com/matelq/GoAuth/database"
 	"github.com/snksoft/crc"

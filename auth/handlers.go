@@ -4,7 +4,6 @@ import (
 	"errors"
 	"fmt"
 	"net/http"
-
 	"github.com/gin-gonic/gin"
 	jwt "github.com/golang-jwt/jwt/v5"
 	"github.com/matelq/GoAuth/mockmail"

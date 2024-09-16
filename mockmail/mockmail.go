@@ -2,7 +2,6 @@ package mockmail
 
 import (
 	"fmt"
-
 	log "github.com/sirupsen/logrus"
 )
 

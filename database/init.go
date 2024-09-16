@@ -2,7 +2,6 @@ package database
 
 import (
 	"context"
-
 	pgx "github.com/jackc/pgx/v5/pgxpool"
 )
 

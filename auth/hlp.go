@@ -2,7 +2,6 @@ package auth
 
 import (
 	"crypto/sha256"
-
 	"github.com/google/uuid"
 )
 

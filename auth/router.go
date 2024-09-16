@@ -2,15 +2,12 @@ package auth
 
 import (
 	"net/http"
-
 	"github.com/gin-gonic/gin"
-	swaggerfiles "github.com/swaggo/files"
-	ginSwagger "github.com/swaggo/gin-swagger"
+
 )
 
 func setupRouter() *gin.Engine {
 	r := gin.Default()
-	//docs.SwaggerInfo.BasePath = "/post"
 
 	auth := r.Group("/auth")
 	{
@@ -29,7 +26,6 @@ func setupRouter() *gin.Engine {
 		})
 	}
 
-	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerfiles.Handler))
 	return r
 }
 
